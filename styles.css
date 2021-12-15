@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+:root {
+    --creame-color: #ECB365;
+    --dark-blue: #064663;
+    --txt-color: #62D9AF;
+    --bright-yellow: #FFF300;
+    --border-gold: gold;
+    --text-area-color: #94a3b8;
+}
+
+body {
+    font-family: 'Boogaloo',
+        sans-serif;
+    background-color: var(--dark-blue);
+    margin: 0px 40px;
+    text-align: center;
+}
+
+
+.txt-area {
+    width: 60%;
+    display: block;
+    margin: auto;
+    height: 10vh;
+    padding: 1rem;
+    text-align: center;
+    border-width: 0.3rem;
+    border-color: var(--border-gold);
+    border-radius: 4rem;
+    color: var(--txt-color);
+    -webkit-text-stroke: blue 0.8px;
+}
+
+.read-txt {
+    color: var(--txt-color);
+}
+
+.txt-size1 {
+    font-size: 2.5rem;
+}
+
+.txt-size2 {
+    font-size: 2rem;
+}
+
+.txt-yellow {
+    color: var(--bright-yellow);
+}
+
+#txt-output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    display: block;
+    font-size: xx-large;
+    border-width: 0.3rem;
+    border-color: var(--border-gold);
+    border-radius: 4rem;
+    color: var(--txt-color);
+    -webkit-text-stroke: blue 0.8px;
+}
+
+#txt-input {
+    background-color: white;
+    font-family: 'Boogaloo',
+        sans-serif;
+    font-size: xx-large;
+}
+
+.btn-style {
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-family: 'Boogaloo',
+        sans-serif;
+    font-size: 125%;
+    color: var(--bright-yellow);
+    background-color: black;
+}
+
+.footer .footer-tag {
+    padding-top: 14rem;
+    color: var(--bright-yellow);
+    font-size: large;
+    position: relative;
+    clear: both;
+}
