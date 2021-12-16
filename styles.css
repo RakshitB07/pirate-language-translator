@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap');
+
+
+/* font-family: 'IM Fell English', serif; */
 
 :root {
-    --creame-color: #ECB365;
-    --dark-blue: #064663;
-    --txt-color: #62D9AF;
-    --bright-yellow: #FFF300;
-    --border-gold: gold;
-    --text-area-color: #94a3b8;
+    --dark-blue: #1e293b;
+    --gray: #9ca3af;
+    --white: #fafafa;
+    --red: #e11d48;
 }
 
 body {
-    font-family: 'Boogaloo',
-        sans-serif;
+    font-family: 'IM Fell English',
+        serif;
     background-color: var(--dark-blue);
     margin: 0px 40px;
     text-align: center;
@@ -26,14 +27,14 @@ body {
     padding: 1rem;
     text-align: center;
     border-width: 0.3rem;
-    border-color: var(--border-gold);
+    border-color: var(--gray);
     border-radius: 4rem;
-    color: var(--txt-color);
-    -webkit-text-stroke: blue 0.8px;
+    color: var(--dark-blue);
+    /* -webkit-text-stroke: blue 0.8px; */
 }
 
 .read-txt {
-    color: var(--txt-color);
+    color: var(--gray);
 }
 
 .txt-size1 {
@@ -42,10 +43,11 @@ body {
 
 .txt-size2 {
     font-size: 2rem;
+    color: var(--red);
 }
 
-.txt-yellow {
-    color: var(--bright-yellow);
+.txt-red {
+    color: var(--red);
 }
 
 #txt-output {
@@ -58,16 +60,16 @@ body {
     display: block;
     font-size: xx-large;
     border-width: 0.3rem;
-    border-color: var(--border-gold);
+    border-color: var(--dark-blue);
     border-radius: 4rem;
-    color: var(--txt-color);
-    -webkit-text-stroke: blue 0.8px;
+    color: var(--dark-blue);
+    /* -webkit-text-stroke: blue 0.8px; */
 }
 
 #txt-input {
     background-color: white;
-    font-family: 'Boogaloo',
-        sans-serif;
+    font-family: 'IM Fell English',
+        serif;
     font-size: xx-large;
 }
 
@@ -77,16 +79,17 @@ body {
     width: 10rem;
     height: 2.5rem;
     border-radius: 1rem;
-    font-family: 'Boogaloo',
-        sans-serif;
+    font-family: 'IM Fell English',
+        serif;
     font-size: 125%;
-    color: var(--bright-yellow);
-    background-color: black;
+    color: var(--dark-blue);
+    background-color: #e2e8f0;
+    opacity: 0.8;
 }
 
 .footer .footer-tag {
     padding-top: 14rem;
-    color: var(--bright-yellow);
+    color: var(--gray);
     font-size: large;
     position: relative;
     clear: both;
